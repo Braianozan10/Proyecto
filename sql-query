@@ -1,0 +1,18 @@
+CREATE TABLE users(
+
+            id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+            Nombre VARCHAR(50) NOT NULL,
+            Apellido VARCHAR(50) NOT NULL,
+            Email VARCHAR(50) NOT NULL,
+            DNI INT(12) NOT NULL,
+            C1 INT(5) NOT NULL,
+            C2 INT(5) NOT NULL,
+	    C3 INT(5) NOT NULL,
+	    C4 INT(5) NOT NULL,
+	    C5 INT(5) NOT NULL,
+	    C6 INT(5) NOT NULL,	
+ 	    C7 INT(5) NOT NULL,
+	    C8 INT(5) NOT NULL,
+            Pendiente BOOL NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
